@@ -5,10 +5,10 @@
 3. 这里的要求就是直接使用 webpack 以及你所了解的周边工具、Loader、Plugin 还原这个项目的打包任务
 4. 尽可能的使用上所有你了解到的功能和特性
 
-/** 项目开发过程说明文档 **/
-1、安装 webpack 和 webpack-cli
+# /** 项目开发过程说明文档 **/
+1. 安装 webpack 和 webpack-cli
 公共打包配置
-2、处理js 文件 安装 babel-loader @babel/core @babel/preset-env
+2. 处理js 文件 安装 babel-loader @babel/core @babel/preset-env
 3、处理 vue 文件需要安装 vue-loader 依赖 css-loader vue-template-compiler 同时需要使用 VueLoaderPlugin
 4、处理 less 文件需要安装 less less-loader style-loader
 5、处理 img 图片 file-loader 图片不显示问题 -- file-loader在新版本中esModule默认为true，因此手动设置为false
