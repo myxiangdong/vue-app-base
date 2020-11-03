@@ -17,7 +17,9 @@
 6. 运行打包是报错 Error: Cannot find module '@vue/cli-plugin-babel' 将babel.config.js 内容注销 
 7. 运行打包报错 Cannot find module file-loader 安装 file-loader 模块
 8. 处理HTML打包 html-webpack-plugin 配置全局变量 BASE_URL new 利用 webpack[ 'ProvidePlugin' ]
+
 生产环境配置
+
 9. 利用 webpack-merge 合并公共的配置
 10. 增加删除的优化动作 clean-webpack-plugin
 11. 拷贝项目中的 public 中的文件
@@ -26,7 +28,9 @@
 13. 利用 webpack-dev-server 开启一个开发服务器
 14. 解决报错Cannot find module 'webpack-cli/bin/config-yargs' 
 	安装 "webpack": "^4.41.2", "webpack-cli": "^3.3.9", "webpack-dev-server": "^3.9.0"
+	
 ESLint 代码检查配置	
+
 15. 安装 eslint 模块 安装 eslint-loader 模块
 16. 初始化 .eslintrc.js 文件 npx eslint --init
 17. 配置 eslint-loader 以及 package.json 中的 script
