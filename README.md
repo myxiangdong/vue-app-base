@@ -7,7 +7,9 @@
 
 /** 项目开发过程说明文档 **/
 1. 安装 webpack 和 webpack-cli
+
 公共打包配置
+
 2. 处理js 文件 安装 babel-loader @babel/core @babel/preset-env
 3. 处理 vue 文件需要安装 vue-loader 依赖 css-loader vue-template-compiler 同时需要使用 VueLoaderPlugin
 4. 处理 less 文件需要安装 less less-loader style-loader
